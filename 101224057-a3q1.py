@@ -116,7 +116,7 @@ def deleteStudent(student_id):
     try:
         # checks if the connection was successful
         if c:
-            # Creates a cursor/handler for the server connection
+            #uses cursor to process SQL statements to the database
             cur = c.cursor()
 
             #creates a query and executes it
